@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>I18n.js sample</title>
+		<link rel="stylesheet" type="text/css" href="demo.css">
+		<script src="https://code.jquery.com/jquery-2.2.1.min.js" integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00=" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="../i18n.js"></script>
+		<script type="text/javascript" src="demo.js"></script>
+	</head>
+
+	<body>
+		<div>
+			<div>
+				<ul class="lang-picker">
+					<li id="portuguese">português</li>
+					<li id="english">english</li>
+					<li id="spanish">español</li>
+				</ul>
+			</div>
+			<h1 data-i18n="demo.title"></h1>
+			<p data-i18n="demo.text"></p>
+			<form>
+				<input type="text" data-i18n-placeholder="demo.form.name">
+				<input type="text" data-i18n-placeholder="demo.form.email">
+				<input type="submit" data-i18n-value="demo.form.submit">
+			</form>
+		</div>
+	</body>
+</html>

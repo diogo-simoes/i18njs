@@ -1,0 +1,31 @@
+{
+	"demo": {
+		"title": {
+			"pt": "Exemplo de uso do i18n.js",
+			"en": "Simple demo for i18n.js",
+			"es": "¡Una cerveza por favor!"
+		},
+		"text": {
+			"pt": "Este exemplo serve apenas para ilustrar os diferentes tipos de atributos de texto que podem ser localizados no cliente com a ajuda do i18n.js",
+			"en": "This demo serves only to depict the several text attributes that can be localized client-side with the help of i18n.js",
+			"es": "Si i18n.js era español entonces sería de puta madre. Ahora así, la han cagado!"
+		},
+		"form": {
+			"name": {
+				"pt": "Zé dos Anzóis",
+				"en": "John Doe",
+				"es": "Fulano de Tal"
+			},
+			"email": {
+				"pt": "zeanzois@email.org",
+				"en": "johndoe@email.org",
+				"es": "fulanotal@email.org"
+			},
+			"submit": {
+				"pt": "Enviar",
+				"en": "Send",
+				"es": "¡Tío!"
+			}
+		}
+	}
+}

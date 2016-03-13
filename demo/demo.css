@@ -1,0 +1,68 @@
+
+html {
+	background-color: #2f2f2f;
+}
+
+body {
+	width: 35rem;
+	margin: 10rem auto 0 auto;
+	background-color: #f0f0f0;
+	border-radius: 10px;
+}
+
+body > div:first-of-type {
+	width: 25rem;
+	margin: 0 auto;
+}
+
+.lang-picker {
+	padding: 2rem 0 0 0;
+	text-align: center;
+}
+
+.lang-picker li {
+	list-style: none;
+	display: inline-block;
+	font: 400 14px/20px sans-serif;
+	color: #393939;
+	cursor: pointer;
+}
+
+.lang-picker li.selected {
+	font-weight: 900;
+	color: #496992;
+}
+
+h1 {
+	font: 400 28px/48px sans-serif;
+	color: #393939;
+	
+}
+
+p {
+	font: 400 18px/22px sans-serif;
+	color: #393939;
+}
+
+form {
+	padding-bottom: 2rem;
+}
+
+form input{
+	display: block;
+	margin: 8px 0;
+	font: 400 13px sans-serif;
+}
+
+form input[type="text"] {
+	padding: 4px 8px;
+	width: 15rem;
+}
+
+form input[type="submit"] {
+	font: 100 15px sans-serif;
+	padding: 8px 16px;
+	color: #f0f0f0;
+	background-color: #496992;
+	border: none;
+}
