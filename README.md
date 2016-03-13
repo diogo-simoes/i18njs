@@ -7,15 +7,15 @@ This util is aimed for anyone looking for internationalization of their text con
 Basically multi-language contents are served instead of resolved contents, and **i18n.js** manages locale change events strictly on client-side.   
 Besides element content, two types of html attributes are supported:
 
-1. **Content** - *data-i18n="key"*   
-   This can be commonly used to define text content for `<div>`, `<span>` and `<p>` nodes.   
+1. **Content - _data-i18n="key"_**   
+   This is used to define text content for `<div>`, `<span>` and `<p>` nodes.   
    e.g. `<p data-18n="key.to.my.content"></p>`
 
-2. **Placehold attribute** - *data-i18n-placeholder="key"*   
+2. **Placeholder attribute - _data-i18n-placeholder="key"_**   
    This can be used to define text content for `<input>` placeholders.   
    e.g. `<input type="text" data-i18n-placeholder="key.to.my.placeholder">`
 
-3. **Value attribute** - *data-i18n-value="key"*   
+3. **Value attribute - _data-i18n-value="key"_**   
    This can be used to define text content for `<input>` values.   
    e.g. `<input type="submit" data-i18n-value="key.to.my.value">`
 
@@ -34,7 +34,7 @@ The same demo is available within this project.
 	i18n.localize();
 	```
 
-4. When handling language changes events, notify i18n:
+4. When handling language change events, notify i18n:
 
 	```javascript
 	function langHandler (newlang) {
@@ -43,11 +43,11 @@ The same demo is available within this project.
 	```
 
 Calling `i18n.lang('en')` will not only update i18n's state but also perform another traverse.
-Also `i18n.localize()` should be called after any dynamic update that might have changed the DOM.
+Also `i18n.localize()` should be called after performing any dynamic changes to the DOM.
 
 ## JSON contract ##
 
-There is only one rule you must follow when modeling these bundles: leaf nodes must have language keys!   
+There is only one rule you must follow when modeling these bundles: **leaf nodes must have language keys!**   
 For instance, if you are passing this structure:
 ```javascript
 {
