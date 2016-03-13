@@ -21,7 +21,7 @@ Besides element content, two types of html attributes are supported:
 
 ## Demo ##
 
-You can check out this live demo: [codepen.io/diogo-simoes/pen/JXRORg](http://codepen.io/diogo-simoes/pen/JXRORg)
+You can check out this live demo: [codepen.io/diogo-simoes/pen/JXRORg](http://codepen.io/diogo-simoes/pen/JXRORg)    
 The same demo is available within this project.
 
 ## Intructions ##

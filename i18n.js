@@ -2,17 +2,17 @@
  *  I18n.js
  *  =======
  *
- *  Simple localization util.
+ *  Simple client-side i18n tool
  *  1. Store your localized labels in json format: `localized-content.json`
  *  2. Write your markup with key references using `data-i18n` attributes.
  *  3. Explicitly invoke a traverse key resolver: `i18n.localize()`
  *     OR
- *     Change the language and the contents will be refreshed: `i18n.lang('en')`
+ *     Change the language, and the contents will be refreshed: `i18n.lang('en')`
  *
- *  This util relies on jQuery to work. I would recommend using the latest version
- *  available (1.12.x or 2.1.4+), although this will probably run with any older
- *  version since it is only taking advantage of `$.getJSON()` and the jQuery
- *  selector function `$()`.
+ *  This util relies on jQuery to perform some DOM manipulation. I would recommend
+ *  using an updated version (1.12.x or 2.x), although this will probably run with
+ *  any older version since it is only taking advantage of `$.getJSON()` and the
+ *  jQuery selector function `$()`.
  * 
  *  © 2016 Diogo Simões - diogosimoes.com
  *
